@@ -1,0 +1,14 @@
+body {
+  background-color: #f9f9f9;
+  font-weight: italics
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+p {
+  color:blue ;
+  font-size: 18px;
+}
