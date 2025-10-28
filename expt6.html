@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<body  bgcolor="beige">
+<p><h1><b><u><center>String And Math Functions</center></b></u></h1></p>
+<h2><u> String Functions</u></h2>
+<script>
+var s1=("This is a string literal");
+document.write("Original string is:"+s1+"<br>");
+document.write("string length is:"+s1.length+"<br>");
+document.write("Character at index 1:"+s1.charAt(1)+"<br>");
+var s2="ing";
+var s3=s1.concat(s2);
+document.write("add ing with our string="+ s3);
+</script><br>
+
+<script>
+var s1="javascript from javapoint index is=";
+var n=s1.indexOf("from");
+document.write("indexOf 'from' in "+s1+ n+"<br>");
+var n=s1.lastIndexOf("java");
+document.write("last indexOf 'java' in "+s1+n);
+</script><br>
+
+<script>
+var s1="JAVASCRIPT TO LowerCase Example";
+var s2=s1.toLowerCase();
+document.write("string converted to lowercase:"+s2);
+</script><br>
+
+<script>
+var s1="JavaScript to UPPERCASE Example";
+var s2=s1.toUpperCase();
+document.write("string converted to uppercase is:"+s2);
+</script><br>
+
+<script>
+var s1="abcdefgh";
+var s2=s1.slice(2,5);
+document.write("slicing 'abcdefgh':"+s2);
+</script><br>
+
+<script>
+var s1=" javascript trim ";
+var s2=s1.trim();
+document.write("trimming a string:"+s2);
+</script><br>
+
+<script>
+var str="This is JavaTpoint website";
+document.write("slicing a string:"+str.split(" ")); //splits the given string.
+</script><br>
+<hr>
+<p><u><h2>Math Objects</h2></u></p>
+square root of 22 is:<span id="p1"></span><br>
+Random number between 0 to 1 :<span id="p2"></span><br>
+2 to the power of 4 is :<span id="p3"></span><br>
+lowest integer for the given no is:<span id="p4"></span><br>
+largest integer for the given no is:<span id="p5"></span><br>
+rounded integer nearest for the given no is:<span id="p6"></span><br>
+absolute value for the given no is:<span id="p7"></span><br>
+<script>
+document.getElementById('p1').innerHTML=Math.sqrt(22);
+document.getElementById('p2').innerHTML=Math.random();
+document.getElementById('p3').innerHTML=Math.pow(2,4);
+document.getElementById('p4').innerHTML=Math.floor(4.6);
+document.getElementById('p5').innerHTML=Math.ceil(5.9);
+document.getElementById('p6').innerHTML=Math.round(7.7);
+document.getElementById('p7').innerHTML=Math.abs(-7);
+</script>
+<hr>
+
+</body>
+</html>
