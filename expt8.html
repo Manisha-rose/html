@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Event handling</title>
+</head>
+ 
+<body>
+<center><h2>Click the button to change Background color </h2>
+<button type="button" onclick="clrBtn();"> Change color</button>
+
+  <script>
+   let colors=["blue","pink","teal","lavender","skyblue"];
+   let index =0;
+   function clrBtn()
+   {
+    document.body.style.backgroundColor=colors[index];
+    index=(index+1)% colors.length;
+   }
+  </script>
+</body>
+</html>
+  
