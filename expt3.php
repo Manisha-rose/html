@@ -1,4 +1,4 @@
-
+ 
 <?php
 //store student names in an array
 $students = array("manisha", "niya", "karuna", "sanjay");
