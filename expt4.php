@@ -1,4 +1,4 @@
- <?php
+  <?php
 $players = array(
     "Virat Kohli" => "Batsman",
     "Jasprit Bumrah" => "Bowler",
